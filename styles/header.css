@@ -1,6 +1,7 @@
 .header {
-  height: 40vh;
+  height: 45vh;
   width: 100%;
+  position: relative;
 }
 .header__image {
   height: 100%;
@@ -15,15 +16,15 @@
   opacity: 0.8;
   width: 100%;
   position: absolute;
-  top: 20%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation-duration: 1s;
-  animation-name: slidein;
 }
-@keyframes slidein {
-  from {
-    top: 15%;
-    opacity: 0;
+@media only screen and (min-width: 850px) {
+  .header {
+    height: 65vh;
+  }
+  .header__text {
+    font-size: 150px;
   }
 }

@@ -19,7 +19,7 @@
 }
 .media {
   position: absolute;
-  top: 43%;
+  top: 48vh;
   right: 0;
   transform: translate(-6%, -50%);
 }
@@ -38,4 +38,12 @@
 .media i {
   font-size: 25px;
   padding: 5px;
+}
+@media only screen and (min-width: 850px) {
+  .nav__item {
+    font-size: 18px;
+  }
+  .media {
+    top: 68vh;
+  }
 }
