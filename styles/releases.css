@@ -1,0 +1,31 @@
+.releases {
+    margin-top: 50px;
+}
+.releases__header {
+  font-size: 20px;
+  padding: 15px;
+}
+.release__card {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.card__image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+}
+.image__prompt {
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-right: -50%;
+  top: 50%;
+  left: 50%;
+}
+.prompt__text {
+  padding: 15px;
+}

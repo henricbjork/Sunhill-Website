@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.nav__item {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+.media {
+  position: absolute;
+  top: 43%;
+  right: 0;
+  transform: translate(-6%, -50%);
+}
+.media i {
+    font-size: 20px;
+    padding: 5px;
+}
