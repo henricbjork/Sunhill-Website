@@ -1,13 +1,16 @@
 .merch {
   margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .merch__header {
   font-size: 20px;
   padding: 15px;
 }
 .merch__card {
-  height: 100%;
-  width: 100%;
+  max-height: 565px;
+  max-width: 565px;
   position: relative;
 }
 .card__image {
@@ -24,4 +27,10 @@
   margin-right: -50%;
   top: 50%;
   left: 50%;
+}
+@media only screen and (min-width: 850px) {
+  .merch__header {
+    font-size: 25px;
+    padding: 50px;
+  }
 }

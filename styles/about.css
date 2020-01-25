@@ -11,3 +11,13 @@
   font-weight: 400;
   padding: 15px;
 }
+@media only screen and (min-width: 850px) {
+  .about {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .about__header {
+    font-size: 25px;
+  }
+}
