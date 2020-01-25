@@ -2,6 +2,14 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
+  animation-duration: 2s;
+  animation-name: fadein;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    padding: 0px;
+  }
 }
 .nav__item {
   font-size: 14px;
@@ -22,12 +30,12 @@
   color: #1db954;
 }
 .instagram:hover {
-  color: #C13584;
+  color: #c13584;
 }
 .facebook:hover {
-  color: #4267B2;
+  color: #4267b2;
 }
 .media i {
-    font-size: 25px;
-    padding: 5px;
+  font-size: 25px;
+  padding: 5px;
 }
