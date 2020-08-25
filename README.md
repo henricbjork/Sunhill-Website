@@ -4,3 +4,4 @@ Website for the band SUNHILL. It's up live at this [link](https://sunhill.netlif
 ## Made with
 - HTML 
 - CSS
+- Javascript
